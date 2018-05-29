@@ -1,0 +1,33 @@
+
+vagrant init hashicorp/precise64
+
+vagrant up
+
+file:///C:/Program%20Files%20(x86)/Jenkins/secrets/initialAdminPassword
+
+
+--download git
+--expose your physical machine folder to your virtual machine
+--configure the Vagrantfile yourself
+--vagrant reload
+--configure proxy for the vm 
+-- downlaod softwares
+--vagrant box list
+--vagrant box add //add box to existing
+--vagrant box remove
+--kill virtual machine : vagrant destroy
+--suspend : vagrant suspend
+
+
+vagrant plugin install vagrant-proxyconf 
+
+--vagrant reload --provision (to take care of the softwares specified)
+
+--maven,git and jenkins
+
+
+--git init 
+--git remote add "alias-name" "repo link"
+--git pull origin master  //master branch code pulled to your machine and checked out
+
+--jenkins plugin for archival --thin backup plugin
